@@ -1,0 +1,4 @@
+docker run -d -t -i -p 3306:3306 --name calendar_db calendar_db
+#docker run --name calendar_db_client -d --link calendar_db:db -p 8081:80 phpmyadmin
+user:calendar
+password:2023

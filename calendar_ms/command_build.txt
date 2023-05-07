@@ -1,0 +1,4 @@
+docker run -d -t -i -p 4000:4000 --name calendar_ms calendar_ms
+#docker ps #Id del container
+#docker inspect <id>
+#Remplazar ip en archivo database_connection: AllowedCORSDomain
